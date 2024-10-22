@@ -1,3 +1,6 @@
 [submodule "venmo"]
 	path = venmo
 	url = https://github.com/Unofficial-APIs/Venmo.git
+[submodule "robinhood"]
+	path = robinhood
+	url = https://github.com/Unofficial-APIs/Robinhood-Unofficial-API.git

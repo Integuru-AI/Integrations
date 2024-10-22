@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 fake-useragent = "^1.5.1"
+aiohttp = "^3.10.10"
 
 
 [build-system]
