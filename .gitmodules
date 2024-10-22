@@ -1,0 +1,3 @@
+[submodule "venmo"]
+	path = venmo
+	url = https://github.com/Unofficial-APIs/Venmo.git
