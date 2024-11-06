@@ -1,5 +1,5 @@
 from typing import Dict, Any, List
-from utils.errors import IntegrationAPIError
+from submodule_integrations.utils.errors import IntegrationAPIError
 from functools import reduce
 
 class Integration:
