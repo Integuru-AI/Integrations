@@ -14,5 +14,9 @@ class IntegrationAuthError(IntegrationError):
 
 
 class IntegrationAPIError(IntegrationError):
-    def __init__(self, integration_name: str, message: str, error_code: str = None):
-        super().__init__(f"{integration_name}: {message}", error_code=error_code)
+    def __init__(self, integration_name: str, message: str, status_code: int = None, error_code: str = None):
+        super().__init__(
+            f"{integration_name}: {message}", 
+            status_code=status_code, 
+            error_code=error_code
+        )
