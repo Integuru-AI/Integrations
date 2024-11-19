@@ -4,15 +4,16 @@ This is a collection of unofficial APIs that we already built. We take custom re
 
 ## Venmo
 
-* Get account identity and balance 
-* Retrieve personal transaction history
-* Send payments
-* Request payments
-* Look up users
+- Send money to other users
+- Request money from other users
+- Get account identity and balance
+- Get personal transaction history
+- Get payment methods
+- Look up users
 
 ## Robinhood
 
-* Download tax documents
+- Download tax documents
 
 ## Usage
 
