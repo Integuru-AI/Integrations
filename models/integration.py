@@ -2,6 +2,7 @@ from typing import Dict, Any, List
 from submodule_integrations.utils.errors import IntegrationAPIError
 from functools import reduce
 
+
 class Integration:
     def __init__(self, integration_name: str):
         self.integration_name = integration_name
@@ -12,5 +13,5 @@ class Integration:
         except (KeyError, TypeError):
             raise IntegrationAPIError(
                 self.integration_name,
-                f"Missing key path '{' -> '.join(keys)}' in response JSON for {method_name}."
+                f"Missing key path '{' -> '.join(keys)}' in response JSON for {method_name}.",
             )
