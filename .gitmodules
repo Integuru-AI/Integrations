@@ -7,3 +7,8 @@
 	path = robinhood
 	url = https://github.com/Unofficial-APIs/Robinhood-Unofficial-API.git
 	branch = main
+
+[submodule "ersp"]
+	path = ersp
+	url = https://github.com/Integuru-AI/eSRP-Unofficial-API
+	branch = main
