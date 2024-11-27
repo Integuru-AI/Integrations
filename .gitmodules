@@ -11,3 +11,8 @@
 	path = ersp
 	url = https://github.com/Integuru-AI/eSRP-Unofficial-API
 	branch = main
+
+[submodule "viventium"]
+	path = viventium
+	url = https://github.com/Integuru-AI/Viventium-Unofficial-API
+	branch = main
