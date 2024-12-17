@@ -1,6 +1,6 @@
 # Existing Unofficial APIs by Integuru
 
-This is a collection of unofficial APIs that we already built. We take custom requests for new integrations or additional features for existing supported platforms.
+This is a collection of open-source unofficial APIs that we already built. We take custom requests for new integrations or additional features for existing supported platforms.
 
 ## Venmo
 
